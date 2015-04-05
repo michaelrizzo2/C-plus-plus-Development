@@ -1,0 +1,14 @@
+﻿Build started 2/4/2015 10:24:59 AM.
+     1>Project "c:\Users\Michael\documents\visual studio 2013\Projects\fig_03_03\fig_03_03\fig_03_03.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\fig_03_03.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt fig_03_03.cpp
+         fig_03_03.cpp
+     1>c:\users\michael\documents\visual studio 2013\projects\fig_03_03\fig_03_03\fig_03_03.cpp(18): error C2628: 'GradeBook' followed by 'int' is illegal (did you forget a ';'?)
+     1>c:\users\michael\documents\visual studio 2013\projects\fig_03_03\fig_03_03\fig_03_03.cpp(19): error C3874: return type of 'main' should be 'int' instead of 'GradeBook'
+     1>c:\users\michael\documents\visual studio 2013\projects\fig_03_03\fig_03_03\fig_03_03.cpp(26): error C2440: 'return' : cannot convert from 'int' to 'GradeBook'
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+     1>Done Building Project "c:\Users\Michael\documents\visual studio 2013\Projects\fig_03_03\fig_03_03\fig_03_03.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.86
