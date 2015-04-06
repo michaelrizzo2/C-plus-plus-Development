@@ -65,6 +65,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="fig_03_15_17.cpp" />
+    <ClCompile Include="GradeBook.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GradeBook.h" />

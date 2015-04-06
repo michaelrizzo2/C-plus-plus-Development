@@ -12,7 +12,4 @@ class Gradebook
 		void displayMessage();
 	private:
 		string courseName;
-
-
-
 };
