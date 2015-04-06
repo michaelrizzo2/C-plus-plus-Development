@@ -30,5 +30,35 @@ string GradeBook::getCourseName()
 	return courseName;
 }
 
+void GradeBook::displayMessage()
+{
+	cout << "Welcome to the gradebook for " << getCourseName() << "!\n" << endl;
+}
 
+void GradeBook::determineClassAverage()
+{
+	int sum_of_grades;
+	int grade_counter;//keeps track of the grade number we are on
+	int grade;//grade to be inputted
+	int average;
+
+	sum_of_grades = 0;//this will initialize the grade sum variable to sum up all of the grades.
+	grade_counter = 1;//initializes the grade counter to sum up all of the grade inputs
+
+	//This is where all of the summing of the grades will be done
+	while (grade_counter <= 10)
+	{
+		cout << "Enter Grade:" << endl;
+		cin >> grade;
+		sum_of_grades += grade;
+		grade_counter++;
+	}
+
+	average = sum_of_grades / 10;
+
+	cout << "The total of all 10 grades is " << sum_of_grades << endl;
+
+	cout << "The class average is " << average << endl;
+	
+}
 
