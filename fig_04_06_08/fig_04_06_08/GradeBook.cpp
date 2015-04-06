@@ -13,5 +13,14 @@ GradeBook::GradeBook(string name)
 //this will make sure the course name has no more than 25 characters
 void GradeBook::setCourseName(string name)
 {
+	if (name.length() <= 25)
+	{
+		courseName = name;
+	}
 
+	else
+	{
+		courseName = name.substr(0, 25);
+		cout << "The name" << name << "ecxeeds the maximum length of 25 characters" << endl;
+	}
 }
