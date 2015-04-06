@@ -33,6 +33,6 @@ string Gradebook::getCourseName()
 
 void Gradebook::displayMessage()
 {
-	cout << "Welcome to the gradebook for\n" << getCourseName() << endl;
+	cout << "Welcome to the gradebook for the course\n" << getCourseName() << endl;
 }
 
