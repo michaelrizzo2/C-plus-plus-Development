@@ -24,3 +24,9 @@ void GradeBook::setCourseName(string name)
 		cout << "The name" << name << "ecxeeds the maximum length of 25 characters" << endl;
 	}
 }
+
+string GradeBook::getCourseName()
+{
+	return courseName;
+}
+
