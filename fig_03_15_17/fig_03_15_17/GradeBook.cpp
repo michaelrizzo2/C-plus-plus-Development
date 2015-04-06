@@ -21,6 +21,8 @@ void Gradebook::setCourseName(string name)
 		courseName = name.substr(0, 25);
 		
 		cout << name << "exceeds the maximum length of 25 characters" << endl;
+
+		cout << "new name is " << courseName << endl;
 	}
 }
 
