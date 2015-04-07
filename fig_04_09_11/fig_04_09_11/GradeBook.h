@@ -5,7 +5,7 @@ class GradeBook
 {
 	public:
 		GradeBook(string);
-		void setCourseName();
+		void setCourseName(string);
 		string getCourseName();
 		void displayMessage();
 		void determineClassAverage();

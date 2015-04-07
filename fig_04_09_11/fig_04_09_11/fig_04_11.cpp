@@ -8,3 +8,5 @@ GradeBook::GradeBook(string name)
 {
 	setCourseName(name);
 }
+
+void GradeBook::setCourseName(string name)
