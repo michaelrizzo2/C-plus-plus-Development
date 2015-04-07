@@ -10,3 +10,17 @@ GradeBook::GradeBook(string name)
 }
 
 void GradeBook::setCourseName(string name)
+{
+	if (name.length() <= 25)
+	{
+		courseName = name;
+	}
+
+	else
+	{
+		courseName = name.substr(0, 25);
+		cout << "The class name of " << name << "is too long" << endl;
+	}
+}
+
+
