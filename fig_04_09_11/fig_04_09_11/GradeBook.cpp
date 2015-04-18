@@ -35,3 +35,12 @@ void GradeBook::displayMessage()
 {
 	cout << "Welcome to the grade book for " <<getCourseName() << endl;
 }
+
+void GradeBook::determineClassAverage()
+{
+	//This will set up the variables
+	int total;//This will be for the sum of the grades entered by the user
+	int gradecounter;//This will be for the number of the grades entered by the user
+	int grade;//This will be for the grade entered by the user
+	double average;//This will be for the average of the grades
+}
