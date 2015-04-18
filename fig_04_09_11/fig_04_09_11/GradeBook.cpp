@@ -30,3 +30,8 @@ string GradeBook::getCourseName()
 {
 	return courseName;
 }
+
+void GradeBook::displayMessage()
+{
+	cout << "Welcome to the grade book for " <<getCourseName() << endl;
+}
