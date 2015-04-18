@@ -43,4 +43,8 @@ void GradeBook::determineClassAverage()
 	int gradecounter;//This will be for the number of the grades entered by the user
 	int grade;//This will be for the grade entered by the user
 	double average;//This will be for the average of the grades
+
+	//This will initialize the variables for the while loop to accept the grades
+	total=0;
+	gradecounter=0;
 }
