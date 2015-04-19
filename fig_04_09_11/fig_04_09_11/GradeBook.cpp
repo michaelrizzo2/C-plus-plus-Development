@@ -51,5 +51,15 @@ void GradeBook::determineClassAverage()
 	//This will ask for the grade from the user to begin the while loop
 	cout << "Enter Grade or -1 to quit" << endl;
 	cin >> grade;
+	//This will sum up the grades and the number of grades when the grade inputted
+	while (grade!=-1)
+	{
+		total += grade;
+		gradecounter++;
+		//next we need to prompt for the user for grade input
+		cout << "Enter Grade or -1 to quit" << endl;
+		cin >> grade;
+	}
+
 
 }
