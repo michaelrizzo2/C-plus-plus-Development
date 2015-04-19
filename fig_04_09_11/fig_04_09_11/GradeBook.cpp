@@ -67,8 +67,8 @@ void GradeBook::determineClassAverage()
 		//This will calculate the average of the grades
 		average = static_cast<double> (total) / gradecounter;
 		// display total and average with 2 digits of precision
-		cout << "Total of all" << gradecounter << "grades entered is" << total << endl;
-		cout << "class average is" << setprecision(2) << fixed << average << endl;
+		cout << "Total of all " << gradecounter << " grades entered is " << total << endl;
+		cout << "class average is " << setprecision(2) << fixed << average << endl;
 	}
 
 

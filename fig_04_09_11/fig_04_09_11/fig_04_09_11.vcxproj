@@ -67,7 +67,11 @@
     <ClInclude Include="GradeBook.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="fig_04_11.cpp" />
     <ClCompile Include="GradeBook.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Results.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

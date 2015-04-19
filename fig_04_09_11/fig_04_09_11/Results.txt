@@ -1,0 +1,9 @@
+Welcome to the grade book for CS101 Python Programming
+Enter Grade or -1 to quit
+23
+Enter Grade or -1 to quit
+45
+Enter Grade or -1 to quit
+-1
+Total of all 2 grades entered is 68
+class average is 34.00
