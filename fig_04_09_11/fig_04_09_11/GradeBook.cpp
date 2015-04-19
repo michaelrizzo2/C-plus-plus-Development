@@ -61,5 +61,11 @@ void GradeBook::determineClassAverage()
 		cin >> grade;
 	}
 
+	//This next if loop will calculate the average
+	if (gradecounter != 0)
+	{
+
+	}
+
 
 }
