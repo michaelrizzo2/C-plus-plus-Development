@@ -64,7 +64,9 @@ void GradeBook::determineClassAverage()
 	//This next if loop will calculate the average
 	if (gradecounter != 0)
 	{
-
+		//This will calculate the average of the grades
+		average = static_cast<double> (total) / gradecounter;
+		// display total and average with 2 digits of precision
 	}
 
 
