@@ -7,7 +7,7 @@ class GradeBook
 	public:
 		GradeBook(string);//Course constructor
 		void setCourseName(string);
-		string setCourseName();
+		string getCourseName();
 		void displayMessage();
 		void input_grades();
 		void displayGradeReport();
