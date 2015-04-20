@@ -26,11 +26,12 @@ void Analysis::processExamResults()
 			number_of_students_failed++;
 		}
 
-		//This will increment the student counter
+		//this will increment the student counter
 		studentcounter++;
 
 	}
-	//This will the num
+	//this will output the number of passing students and failing students
+	cout << "the number of students that failed is " << number_of_students_passed << " and the number of students that failed is " << number_of_students_failed << endl;
 	if (number_of_students_passed > 8)
 	{
 		cout << "Raise Tuition" << endl;

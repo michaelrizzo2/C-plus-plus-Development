@@ -1,0 +1,23 @@
+Enter 1 for pass or 2 for fail
+1
+Enter 1 for pass or 2 for fail
+2
+Enter 1 for pass or 2 for fail
+1
+Enter 1 for pass or 2 for fail
+2
+Enter 1 for pass or 2 for fail
+1
+Enter 1 for pass or 2 for fail
+2
+Enter 1 for pass or 2 for fail
+1
+Enter 1 for pass or 2 for fail
+2
+Enter 1 for pass or 2 for fail
+1
+Enter 1 for pass or 2 for fail
+2
+Enter 1 for pass or 2 for fail
+1
+the number of students that failed is 6 and the number of students that failed is 5
