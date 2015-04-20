@@ -34,3 +34,9 @@ string GradeBook::getCourseName()
 {
 	return courseName;
 }
+
+void GradeBook::displayMessage()
+{
+	cout << "Welcome to the gradebook for " << getCourseName() << endl;
+}
+
