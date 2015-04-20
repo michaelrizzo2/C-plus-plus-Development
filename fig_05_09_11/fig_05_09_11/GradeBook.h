@@ -13,6 +13,7 @@ class GradeBook
 		void displayGradeReport();
 	private:
 		string courseName;
+		//These will be for the numbers of A's B's C's D's F's
 		int number_of_a_grades;
 		int number_of_b_grades;
 		int number_of_c_grades;
