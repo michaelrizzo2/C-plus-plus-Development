@@ -13,3 +13,18 @@ GradeBook::GradeBook(string name)
 	number_of_d_grades = 0;
 	number_of_f_grades = 0;
 }
+
+void GradeBook::setCourseName(string name)
+{
+	if (name.length()<=25)
+	{ 
+		courseName = name;
+	}
+
+	else
+	{
+		//we will trim the course name if it is longer than 25 characters
+		courseName = name.substr(0, 25);
+		cout << "Name" << name << " is longer than 25 characters " << endl;
+	}
+}
