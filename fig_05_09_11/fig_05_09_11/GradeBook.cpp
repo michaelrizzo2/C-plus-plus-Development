@@ -79,7 +79,6 @@ void GradeBook::input_grades()
 			case '\t':
 			case ' ':
 				break;
-				break;
 			default:
 				cout << "Incorrect leter grade entered " << "enter a new grade" << endl;
 				break;
