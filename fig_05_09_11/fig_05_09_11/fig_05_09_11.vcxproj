@@ -70,6 +70,9 @@
     <ClCompile Include="fig_05_09_11.cpp" />
     <ClCompile Include="GradeBook.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Grade Results.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

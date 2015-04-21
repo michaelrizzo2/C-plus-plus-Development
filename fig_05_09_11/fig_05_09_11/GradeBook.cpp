@@ -42,7 +42,7 @@ void GradeBook::displayMessage()
 
 void GradeBook::input_grades()
 {
-	int grade;//grade entered by user
+	char grade;//grade entered by user
 	cout << "Enter the letter grades" << endl << "enter the EOF character to end input" << endl;
 
 	//This will loop until the user types the end of file sequence.

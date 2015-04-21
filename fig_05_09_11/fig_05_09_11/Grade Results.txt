@@ -1,0 +1,14 @@
+Enter the letter grades
+enter the EOF character to end input
+A
+B
+C
+D
+F
+^Z
+
+The number of A's is 1
+The number of B's is 1
+The number of C's is 1
+The number of D's is 1
+The number of F's is 1
