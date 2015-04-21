@@ -86,3 +86,13 @@ void GradeBook::input_grades()
 		}
 	}
 }
+
+void GradeBook::displayGradeReport()
+{
+	cout << "Number of students that received letter grade" << endl;
+	cout << "The number of A's is " << number_of_a_grades << endl;
+	cout << "The number of B's is " << number_of_b_grades << endl;
+	cout << "The number of C's is " << number_of_c_grades << endl;
+	cout << "The number of D's is " << number_of_d_grades << endl;
+	cout << "The number of F's is " << number_of_f_grades << endl;
+}
